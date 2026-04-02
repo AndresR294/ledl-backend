@@ -16,7 +16,7 @@ if (process.env.SUPABASE_URL && process.env.SUPABASE_KEY) {
   console.log("⚠️ Supabase no configurado");
 }
 
-app.get('/', (req,res)=>res.send("LEDL EXTREMO v3 🚀"));
+app.get('/', (req,res)=>res.send("LEDL AUTO v2 🚀"));
 app.get('/ping', (req,res)=>res.json({ok:true}));
 
 const PORT = process.env.PORT || 3000;
